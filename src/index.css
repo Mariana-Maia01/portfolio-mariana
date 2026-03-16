@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@layer base {
+  :root {
+    --background: 260 15% 8%;
+    --foreground: 300 5% 92%;
+
+    --card: 260 12% 12%;
+    --card-foreground: 300 5% 92%;
+
+    --popover: 260 12% 12%;
+    --popover-foreground: 300 5% 92%;
+
+    --primary: 330 85% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 40% 20%;
+    --secondary-foreground: 300 5% 92%;
+
+    --muted: 260 10% 16%;
+    --muted-foreground: 260 10% 55%;
+
+    --accent: 270 60% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 260 12% 18%;
+    --input: 260 12% 18%;
+    --ring: 330 85% 60%;
+
+    --radius: 1rem;
+
+    --sidebar-background: 260 15% 10%;
+    --sidebar-foreground: 300 5% 92%;
+    --sidebar-primary: 330 85% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 40% 20%;
+    --sidebar-accent-foreground: 300 5% 92%;
+    --sidebar-border: 260 12% 18%;
+    --sidebar-ring: 330 85% 60%;
+  }
+
+  .light {
+    --background: 0 0% 97%;
+    --foreground: 260 15% 12%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 260 15% 12%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 260 15% 12%;
+
+    --primary: 330 85% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 270 30% 92%;
+    --secondary-foreground: 270 40% 30%;
+
+    --muted: 260 10% 92%;
+    --muted-foreground: 260 10% 40%;
+
+    --accent: 270 50% 55%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 260 10% 85%;
+    --input: 260 10% 85%;
+    --ring: 330 85% 50%;
+
+    --sidebar-background: 0 0% 95%;
+    --sidebar-foreground: 260 15% 12%;
+    --sidebar-primary: 330 85% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 270 30% 92%;
+    --sidebar-accent-foreground: 270 40% 30%;
+    --sidebar-border: 260 10% 85%;
+    --sidebar-ring: 330 85% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Space Grotesk', system-ui, sans-serif;
+  }
+
+  ::selection {
+    background: hsl(330 85% 60% / 0.35);
+    color: hsl(0 0% 100%);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Nunito', system-ui, sans-serif;
+  }
+
+  .section-padding {
+    @apply py-20 md:py-28 px-4 md:px-8;
+  }
+
+  .pink-glow {
+    box-shadow: 0 0 25px hsl(330 85% 60% / 0.25), 0 0 60px hsl(330 85% 60% / 0.1);
+  }
+
+  .pink-glow-text {
+    text-shadow: 0 0 30px hsl(330 85% 60% / 0.4);
+  }
+
+  .gradient-pink {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(330 85% 60%), hsl(270 60% 55%));
+  }
+
+  .punk-card {
+    @apply bg-card border border-border rounded-2xl;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+  }
+
+  .punk-card:hover {
+    transform: translateY(-4px) scale(1.01);
+    box-shadow: 0 8px 30px hsl(330 85% 60% / 0.15);
+  }
+
+  .light .punk-card {
+    box-shadow: 0 2px 12px hsl(260 15% 12% / 0.06);
+  }
+
+  .light .punk-card:hover {
+    box-shadow: 0 8px 30px hsl(330 85% 50% / 0.18);
+  }
+
+  .nav-link-underline {
+    @apply relative;
+  }
+
+  .nav-link-underline::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-full h-[2px] scale-x-0 origin-left transition-transform duration-300;
+    background: hsl(330 85% 60%);
+  }
+
+  .nav-link-underline:hover::after,
+  .nav-link-underline.active::after {
+    @apply scale-x-100;
+  }
+
+  .btn-kawaii {
+    @apply relative overflow-hidden;
+    transition: transform 0.15s ease, box-shadow 0.25s ease;
+  }
+
+  .btn-kawaii:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px hsl(330 85% 60% / 0.4);
+  }
+
+  .btn-kawaii:active {
+    transform: scale(0.97);
+  }
+}
