@@ -1,6 +1,6 @@
-import { isAdmin, json, sameOrigin } from "./_lib/auth";
-import { redis, redisConfigured } from "./_lib/redis";
-import { PDI_LIMITS, parsePdiDocument } from "../src/lib/pdi-schema";
+import { isAdmin, json, sameOrigin } from "./_lib/auth.js";
+import { redis, redisConfigured } from "./_lib/redis.js";
+import { PDI_LIMITS, parsePdiDocument } from "../src/lib/pdi-schema.js";
 
 const KEY = "pdi:document";
 

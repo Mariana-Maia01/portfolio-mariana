@@ -3,7 +3,7 @@
  * Usado no navegador (antes de enviar) e no servidor (antes de gravar),
  * por isso não importa nada com alias "@/".
  */
-import type { PdiAction, PdiGoal, PdiHorizon } from "../types/portfolio";
+import type { PdiAction, PdiGoal, PdiHorizon } from "../types/portfolio.js";
 
 export interface PdiDocument {
   version: 1;

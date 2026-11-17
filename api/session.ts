@@ -1,5 +1,5 @@
-import { authConfigured, isAdmin, json } from "./_lib/auth";
-import { redisConfigured } from "./_lib/redis";
+import { authConfigured, isAdmin, json } from "./_lib/auth.js";
+import { redisConfigured } from "./_lib/redis.js";
 
 /** GET /api/session → { admin, configured } */
 export async function GET(request: Request) {
