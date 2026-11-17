@@ -1,5 +1,5 @@
-import { authConfigured, clientIp, createSessionCookie, json, safeEqual, sameOrigin } from "./_lib/auth";
-import { redis, redisConfigured } from "./_lib/redis";
+import { authConfigured, clientIp, createSessionCookie, json, safeEqual, sameOrigin } from "./_lib/auth.js";
+import { redis, redisConfigured } from "./_lib/redis.js";
 
 const MAX_ATTEMPTS = 5;
 const WINDOW_SECONDS = 15 * 60;

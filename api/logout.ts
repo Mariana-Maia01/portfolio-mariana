@@ -1,4 +1,4 @@
-import { clearSessionCookie, json, sameOrigin } from "./_lib/auth";
+import { clearSessionCookie, json, sameOrigin } from "./_lib/auth.js";
 
 /** POST /api/logout → apaga o cookie de sessão */
 export async function POST(request: Request) {
