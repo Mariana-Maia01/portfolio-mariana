@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import { spring } from "@/lib/motion";
 
 const ThemeToggle = () => {
   const [isDark, setIsDark] = useState(() => {
@@ -26,10 +27,24 @@ const ThemeToggle = () => {
     }
   }, []);
 
+  /** Troca de tema com um cross-fade curto (sem salto brusco de brilho), quando o navegador suporta. */
+  const toggle = () => {
+    const next = !isDark;
+    const apply = () => {
+      document.documentElement.classList.toggle("light", !next);
+      setIsDark(next);
+    };
+    const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const doc = document as Document & { startViewTransition?: (cb: () => void) => unknown };
+    if (doc.startViewTransition && !reduce) doc.startViewTransition(apply);
+    else apply();
+  };
+
   return (
     <button
-      onClick={() => setIsDark(!isDark)}
-      className="relative w-9 h-9 flex items-center justify-center rounded-full bg-secondary/60 hover:bg-secondary transition-colors duration-200"
+      type="button"
+      onClick={toggle}
+      className="pressable relative w-9 h-9 flex items-center justify-center rounded-full bg-secondary/60 hover:bg-secondary transition-colors duration-200"
       aria-label={isDark ? "Ativar modo claro" : "Ativar modo escuro"}
     >
       <div className="relative w-5 h-5">
@@ -48,7 +63,7 @@ const ThemeToggle = () => {
             rotate: isDark ? -90 : 0,
             opacity: isDark ? 0 : 1,
           }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
+          transition={spring.snappy}
         >
           <circle cx="12" cy="12" r="5" />
           <line x1="12" y1="1" x2="12" y2="3" />
@@ -76,7 +91,7 @@ const ThemeToggle = () => {
             rotate: isDark ? 0 : 90,
             opacity: isDark ? 1 : 0,
           }}
-          transition={{ duration: 0.4, ease: "easeInOut" }}
+          transition={spring.snappy}
         >
           <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
         </motion.svg>

@@ -1,109 +1,67 @@
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
-import { Code2, Server, Infinity as InfinityIcon, Wrench, Skull } from "lucide-react";
+import { Bot, Bug, Cloud, Code2, Database, Wrench } from "lucide-react";
+import { SKILL_LEVELS, skillCategories } from "@/data/skills";
+import type { SkillCategory, SkillLevel } from "@/types/portfolio";
+import { Reveal, Section } from "@/components/shared/Section";
+import { LevelDot } from "@/components/shared/Badges";
 
-const categories = [
-  {
-    title: "Front-end",
-    icon: Code2,
-    skills: [
-      { name: "React" },
-      { name: "JavaScript" },
-      { name: "CSS" },
-      { name: "HTML" },
-    ],
-  },
-  {
-    title: "Back-end",
-    icon: Server,
-    skills: [
-      { name: "Java" },
-      { name: "C#" },
-      { name: "PostgreSQL" },
-      { name: "SQL" },
-      { name: "NoSQL" },
-      { name: "REST APIs" },
-      { name: "Spring Boot" },
-      { name: "JPA/Hibernate" },
-    ],
-  },
-  {
-    title: "DevOps",
-    icon: InfinityIcon,
-    skills: [
-      { name: "Docker" },
-      { name: "Linux" },
-      { name: "AWS (S3, EC2, RDS)" },
-      { name: "CI/CD" },
-    ],
-  },
-  {
-    title: "Ferramentas",
-    icon: Wrench,
-    skills: [
-      { name: "Git & GitHub" },
-      { name: "Docker" },
-      { name: "Kanban" },
-      { name: "Scrum" },
-      { name: "Postman" },
-    ],
-  },
-];
-
-const SkillTag = ({ name }: { name: string }) => (
-  <span className="inline-flex items-center px-3 py-1.5 rounded-lg bg-secondary border border-border text-sm text-foreground font-medium">
-    {name}
-  </span>
-);
-
-const Skills = () => {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-100px" });
-
-  return (
-    <section id="habilidades" className="section-padding bg-muted/30" ref={ref}>
-      <div className="container mx-auto max-w-6xl">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
-          className="mb-12"
-        >
-          <div className="flex items-center gap-2 mb-2">
-            <Skull size={16} className="text-primary" />
-            <p className="text-primary font-mono text-sm">habilidades</p>
-          </div>
-          <h2 className="text-3xl md:text-4xl font-display font-bold">
-            Minhas <span className="gradient-pink">Skills</span>
-          </h2>
-        </motion.div>
-
-        <div className="grid md:grid-cols-2 gap-6">
-          {categories.map((cat, i) => (
-            <motion.div
-              key={cat.title}
-              initial={{ opacity: 0, y: 30 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.5, delay: i * 0.15 }}
-              className="punk-card p-6 space-y-5"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-primary/10 flex items-center justify-center">
-                  <cat.icon size={18} className="text-primary" />
-                </div>
-                <h3 className="font-display font-bold text-lg text-foreground">{cat.title}</h3>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {cat.skills.map((skill) => (
-                  <SkillTag key={skill.name} name={skill.name} />
-                ))}
-              </div>
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+const icons: Record<SkillCategory["icon"], typeof Bug> = {
+  qa: Bug,
+  code: Code2,
+  database: Database,
+  cloud: Cloud,
+  ai: Bot,
+  tools: Wrench,
 };
+
+const LEVEL_ORDER: SkillLevel[] = ["experiencia-pratica", "em-desenvolvimento", "basico"];
+
+const Skills = () => (
+  <Section
+    headingLevel="h1"
+    id="conhecimentos"
+    title={<>Tecnologias e <span className="gradient-pink">nível de domínio</span></>}
+    description="A cor ao lado de cada tecnologia indica meu nível atual de domínio."
+  >
+    <Reveal className="flex flex-wrap gap-x-8 gap-y-3 mb-10 text-sm text-muted-foreground" aria-label="Legenda de níveis">
+      {LEVEL_ORDER.map((l) => (
+        <span key={l} className="inline-flex items-center gap-2">
+          <LevelDot level={l} />
+          <span>
+            <span className="text-foreground font-medium">{SKILL_LEVELS[l].label}</span>
+            {SKILL_LEVELS[l].description && <> — {SKILL_LEVELS[l].description}</>}
+          </span>
+        </span>
+      ))}
+    </Reveal>
+
+    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {skillCategories.map((cat, i) => {
+        const Icon = icons[cat.icon];
+        const sorted = [...cat.skills].sort((a, b) => LEVEL_ORDER.indexOf(a.level) - LEVEL_ORDER.indexOf(b.level));
+        return (
+          <Reveal key={cat.id} delay={i * 0.06} className="punk-card p-6 hover:translate-y-0 hover:scale-100">
+            <h3 className="flex items-center gap-3 font-display font-bold text-xl mb-4">
+              <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary/10">
+                <Icon size={18} className="text-primary" aria-hidden />
+              </span>
+              {cat.title}
+            </h3>
+            <ul className="divide-y divide-border">
+              {sorted.map((s) => (
+                <li key={s.name} className="flex items-center justify-between gap-4 py-3" title={`${SKILL_LEVELS[s.level].label}${s.context ? ` · ${s.context}` : ""}`}>
+                  <span className="text-base leading-snug">
+                    {s.name}
+                    {s.context && <span className="mt-0.5 block text-sm text-muted-foreground">{s.context}</span>}
+                  </span>
+                  <LevelDot level={s.level} />
+                </li>
+              ))}
+            </ul>
+          </Reveal>
+        );
+      })}
+    </div>
+  </Section>
+);
 
 export default Skills;

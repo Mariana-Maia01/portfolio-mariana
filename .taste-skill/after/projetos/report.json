@@ -1,0 +1,1397 @@
+{
+ "url": "http://localhost:5199/#projetos",
+ "at": "2026-11-17T12:33:57.936Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.99,
+    1,
+    0.43
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 10,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2611,
+     "screens": 2.9,
+     "words": 202,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "project-fidelidade.webp",
+      "project-screenmatch.webp",
+      "project-library-app.webp",
+      "project-minecraft-aws.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "chars": 30,
+     "lines": 1,
+     "size": 48,
+     "vw": 3.3,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 192,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "lines": 1,
+     "size": 48,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "words": 4,
+      "chars": 30,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 192,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.27,
+      "top": 1926,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      24,
+      48
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.7
+     },
+     "measureChars": 63,
+     "max": {
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "text": "Projetos"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.15,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a5a0b1",
+       "share": 0.52
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.4
+      },
+      {
+       "color": "#f04299",
+       "share": 0.04
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px -",
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.aspect-[16/9].bg-secondary/50 562px",
+      "div.aspect-[16/9].bg-secondary/50 562px",
+      "div.aspect-[16/9].bg-secondary/50 562px",
+      "div.aspect-[16/9].bg-secondary/50 562px",
+      "footer.border-t.border-border 1440px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.14
+     },
+     {
+      "type": "img",
+      "ratio": 0.14
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2611,
+    "margins": {
+     "left": 144,
+     "right": 145
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 1798,
+      "words": 159,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Projetos",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 144,
+      "right": 145,
+      "textLeft": 144,
+      "textRight": 166,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 1798,
+      "height": 712,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 434,
+      "right": 434,
+      "textLeft": 434,
+      "textRight": 434,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2244,
+      "height": 308
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "size": 48,
+      "top": 192,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 173,
+      "n": 4
+     },
+     {
+      "x": 761,
+      "n": 4
+     },
+     {
+      "x": 144,
+      "n": 2
+     },
+     {
+      "x": 331,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 120,
+     "h": 780
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.99,
+    0.79,
+    0.67
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 10,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2487,
+     "screens": 2.4,
+     "words": 202,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "project-fidelidade.webp",
+      "project-screenmatch.webp",
+      "project-library-app.webp",
+      "project-minecraft-aws.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "chars": 30,
+     "lines": 2,
+     "size": 36,
+     "vw": 4.7,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1.11,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.64,
+     "top": 176,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "lines": 2,
+     "size": 36,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.64,
+      "top": 176,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.37,
+      "top": 1826,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.9,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.1,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      24,
+      36
+     ],
+     "sizeCount": 6,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 6.7
+     },
+     "measureChars": 35,
+     "max": {
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "text": "Projetos"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.15,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a5a0b1",
+       "share": 0.52
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.4
+      },
+      {
+       "color": "#f04299",
+       "share": 0.04
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px -",
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.aspect-[16/9].bg-secondary/50 338px",
+      "div.aspect-[16/9].bg-secondary/50 338px",
+      "div.aspect-[16/9].bg-secondary/50 338px",
+      "div.aspect-[16/9].bg-secondary/50 338px",
+      "footer.border-t.border-border 768px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.08
+     },
+     {
+      "type": "img",
+      "ratio": 0.08
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2487,
+    "margins": {
+     "left": 32,
+     "right": 33
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 1714,
+      "words": 159,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Projetos",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 33,
+      "textLeft": 32,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 1714,
+      "height": 672,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 98,
+      "right": 98,
+      "textLeft": 98,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "size": 36,
+      "top": 176,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 61,
+      "n": 4
+     },
+     {
+      "x": 425,
+      "n": 4
+     },
+     {
+      "x": 32,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.99,
+    1,
+    1,
+    0.74,
+    0.74
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 10,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3521,
+     "screens": 4.2,
+     "words": 196,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "project-fidelidade.webp",
+      "project-screenmatch.webp",
+      "project-library-app.webp",
+      "project-minecraft-aws.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "chars": 30,
+     "lines": 2,
+     "size": 30,
+     "vw": 7.7,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 144,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "lines": 2,
+     "size": 30,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 144,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 2793,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.89,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.11,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      20,
+      30
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "text": "Projetos"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.15,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#1d1b22",
+       "top": 388,
+       "hsl": {
+        "h": 257,
+        "s": 0.11,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a5a0b1",
+       "share": 0.51
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.41
+      },
+      {
+       "color": "#f04299",
+       "share": 0.04
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.aspect-[16/9].bg-secondary/50 356px",
+      "div.aspect-[16/9].bg-secondary/50 356px",
+      "div.aspect-[16/9].bg-secondary/50 356px",
+      "div.aspect-[16/9].bg-secondary/50 356px",
+      "footer.border-t.border-border 390px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 2,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.22
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3521,
+    "margins": {
+     "left": 16,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 2713,
+      "words": 159,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Projetos",
+       "size": 30,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 2713,
+      "height": 629,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 41,
+      "right": 41,
+      "textLeft": 50,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-border",
+      "tag": "footer",
+      "top": 3342,
+      "height": 179,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 92,
+      "right": 86,
+      "textLeft": 92,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "size": 30,
+      "top": 144,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 41,
+      "n": 8
+     },
+     {
+      "x": 16,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient-text",
+   "width": 1440,
+   "message": "2 gradient-filled text element(s).",
+   "fix": "Solid colour text.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "2 box-shadow(s) on elements at rest: span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px - | div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "5 thin rule(s)/divider line(s): div.aspect-[16/9].bg-secondary/50 562px | div.aspect-[16/9].bg-secondary/50 562px | div.aspect-[16/9].bg-secondary/50 562px | div.aspect-[16/9].bg-secondary/50 562px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "5 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "3 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Enviar e-mail\" 3.5:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (6.7:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 48px (3.3vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 11 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\projetos\\desktop-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\projetos\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\projetos\\tablet-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\projetos\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\projetos\\mobile-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\projetos\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

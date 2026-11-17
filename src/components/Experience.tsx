@@ -1,92 +1,91 @@
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
-import { Skull, Heart } from "lucide-react";
+import { Briefcase, HeartHandshake } from "lucide-react";
+import { experiences } from "@/data/experience";
+import { formatPeriod } from "@/lib/date";
+import { Reveal, Section } from "@/components/shared/Section";
+import { Tag } from "@/components/shared/Badges";
 
-const timeline = [
-  {
-    year: "2024 - 2027",
-    title: "Tecnólogo em Análise e Desenvolvimento de Sistemas",
-    description: "Fatec Mogi das Cruzes — Formação superior em desenvolvimento de software.",
-  },
-  {
-    year: "jul 2025",
-    title: "GitHub Copilot Challenge",
-    description: "Microsoft — Bootcamp focado em desenvolvimento de software com IA integrada ao fluxo de programação. Uso do GitHub Copilot como pair programmer, debugging, geração de testes e documentação com auxílio de IA. Aplicação de prompt engineering para melhorar produtividade e qualidade do código.",
-  },
-  {
-    year: "nov 2025",
-    title: "Formação Java Web: crie aplicações usando Spring Boot",
-    description: "Alura — Criação de aplicações backend com Java, Spring Boot e Maven. Implementação de API REST com operações CRUD (Spring MVC). Persistência de dados com PostgreSQL e JPA. Uso de Collections, Streams e Lambdas. Integração com API externa e deploy da aplicação.",
-  },
-  {
-    year: "dez 2025",
-    title: "Inspect Rich Documents with Gemini Multimodality and Multimodal RAG",
-    description: "Google Cloud Skills Boost — Uso de prompts multimodais (texto + imagem + vídeo) para extração de informações. Implementação de Multimodal RAG para busca contextual com citações. Criação de metadados e recuperação de trechos relevantes em documentos. Aplicação prática de IA generativa com Gemini em dados não estruturados.",
-  },
-];
+/** Rótulo pequeno de grupo, no estilo dos cabeçalhos de lista da Apple. */
+const Eyebrow = ({ children }: { children: React.ReactNode }) => (
+  <h4 className="text-xs font-semibold uppercase tracking-[0.08em] text-muted-foreground">{children}</h4>
+);
 
-const Experience = () => {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-100px" });
+const Experience = () => (
+  <Section
+    id="experiencia"
+    title={<>Experiência <span className="gradient-pink">profissional</span></>}
+    description="Onde atuo, quais responsabilidades assumo e o que já entreguei."
+  >
+    <ol className="space-y-6">
+      {experiences.map((exp, i) => {
+        const Icon = exp.type === "Voluntariado" ? HeartHandshake : Briefcase;
+        const isCurrent = !exp.end;
+        return (
+          <li key={exp.id}>
+            <Reveal delay={i * 0.08}>
+              <article className="rounded-3xl border border-border bg-card p-6 sm:p-8 md:p-10 shadow-[0_1px_2px_hsl(var(--foreground)/0.04),0_16px_40px_-24px_hsl(var(--foreground)/0.25)]">
+                {/* Cabeçalho: quem, onde e quando */}
+                <header className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+                  <div className="flex items-start gap-4">
+                    <span
+                      className="grid h-12 w-12 shrink-0 place-items-center rounded-2xl bg-primary/10 text-primary"
+                      aria-hidden
+                    >
+                      <Icon size={22} />
+                    </span>
+                    <div>
+                      <h3 className="font-display text-2xl font-bold leading-tight tracking-[-0.015em] md:text-[1.75rem]">
+                        {exp.role}
+                      </h3>
+                      <p className="mt-1 text-[0.95rem] text-muted-foreground">
+                        <span className="font-medium text-foreground/90">{exp.company}</span> · {exp.type}
+                      </p>
+                    </div>
+                  </div>
 
-  return (
-    <section id="experiencia" className="section-padding bg-muted/30" ref={ref}>
-      <div className="container mx-auto max-w-4xl">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.6 }}
-          className="mb-12"
-        >
-          <div className="flex items-center gap-2 mb-2">
-            <Skull size={16} className="text-primary" />
-            <p className="text-primary font-mono text-sm">trajetória</p>
-          </div>
-          <h2 className="text-3xl md:text-4xl font-display font-bold">
-            Minha <span className="gradient-pink">Experiência</span>
-          </h2>
-        </motion.div>
-
-        <div className="relative">
-          <div className="absolute left-4 md:left-1/2 md:-translate-x-px top-0 bottom-0 w-px bg-primary/20" />
-
-          <div className="space-y-12">
-            {timeline.map((item, i) => (
-              <motion.div
-                key={item.year}
-                initial={{ opacity: 0, y: 30 }}
-                animate={inView ? { opacity: 1, y: 0 } : {}}
-                transition={{ duration: 0.5, delay: i * 0.15 }}
-                className={`relative flex items-start gap-8 ${
-                  i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
-                }`}
-              >
-                <div className="absolute left-4 md:left-1/2 -translate-x-1/2 w-4 h-4 rounded-full bg-primary z-10 mt-1.5 flex items-center justify-center">
-                  <Heart size={8} className="text-primary-foreground" fill="currentColor" />
-                </div>
-
-                <div
-                  className={`ml-12 md:ml-0 md:w-[calc(50%-2rem)] punk-card p-6 ${
-                    i % 2 === 0 ? "md:mr-auto md:text-right" : "md:ml-auto"
-                  }`}
-                >
-                  <span className="text-primary font-mono text-sm font-bold">
-                    {item.year}
-                  </span>
-                  <h3 className="text-lg font-display font-bold text-foreground mt-1">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground mt-2">
-                    {item.description}
+                  <p className="inline-flex w-fit shrink-0 items-center gap-2 rounded-full bg-muted px-3 py-1 text-sm font-medium tabular-nums text-foreground/80">
+                    {isCurrent && (
+                      <span className="relative flex h-2 w-2" aria-hidden>
+                        <span className="absolute inline-flex h-full w-full rounded-full bg-emerald-500 opacity-60 motion-safe:animate-ping" />
+                        <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
+                      </span>
+                    )}
+                    {formatPeriod(exp.start, exp.end, exp.periodLabel)}
                   </p>
+                </header>
+
+                <p className="mt-5 max-w-3xl text-base leading-relaxed text-foreground/85 md:text-[1.05rem]">{exp.context}</p>
+
+                <div className="mt-7 border-t border-border/70 pt-7">
+                  <Eyebrow>Principais atividades</Eyebrow>
+                  {/* Colunas de texto (não grid): cada coluna empilha seus itens sem
+                      buracos quando um item ocupa duas linhas e o vizinho só uma */}
+                  <ul className="mt-4 -mb-2.5 md:columns-2 md:gap-x-12">
+                    {exp.activities.map((a) => (
+                      <li key={a} className="flex break-inside-avoid gap-3 pb-2.5 text-[0.95rem] leading-relaxed text-muted-foreground">
+                        <span className="mt-[0.6rem] h-1.5 w-1.5 shrink-0 rounded-full bg-primary/70" aria-hidden />
+                        <span>{a}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
-  );
-};
+
+                <div className="mt-7 border-t border-border/70 pt-7">
+                  <Eyebrow>Ferramentas</Eyebrow>
+                  <div className="mt-4 flex flex-wrap gap-2" aria-label="Tecnologias e ferramentas">
+                    {exp.tools.map((t) => (
+                      <Tag key={t} className="rounded-full px-3">
+                        {t}
+                      </Tag>
+                    ))}
+                  </div>
+                </div>
+              </article>
+            </Reveal>
+          </li>
+        );
+      })}
+    </ol>
+  </Section>
+);
 
 export default Experience;

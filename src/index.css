@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
 @layer base {
   :root {
@@ -22,7 +23,7 @@
     --secondary-foreground: 300 5% 92%;
 
     --muted: 260 10% 16%;
-    --muted-foreground: 260 10% 55%;
+    --muted-foreground: 260 10% 66%;
 
     --accent: 270 60% 50%;
     --accent-foreground: 0 0% 100%;
@@ -95,9 +96,84 @@
     scroll-behavior: smooth;
   }
 
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  :focus-visible {
+    outline: 2px solid hsl(var(--ring));
+    outline-offset: 2px;
+  }
+
+  :root {
+    /* Curva "fluida" (desacelera como uma mola criticamente amortecida) para o que é CSS */
+    --ease-fluid: cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
   body {
     @apply bg-background text-foreground antialiased;
     font-family: 'Space Grotesk', system-ui, sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-optical-sizing: auto;
+  }
+
+  /* Tracking por tamanho: título grande aperta, texto pequeno abre um pouco */
+  h1 {
+    letter-spacing: -0.03em;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    /* Laços contínuos (flutuar, pulsar, balançar) param; o conteúdo continua lá */
+    .animate-float,
+    .animate-pulse-pink,
+    .animate-wiggle,
+    .group:hover .group-hover\:animate-wiggle {
+      animation: none !important;
+    }
+
+    .pressable:active,
+    .pressable-soft:active,
+    .btn-kawaii:active,
+    .btn-kawaii:hover,
+    .punk-card:hover {
+      transform: none !important;
+    }
+
+    .dialog-from-origin.dialog-from-origin[data-state] {
+      --tw-enter-scale: 1;
+      --tw-exit-scale: 1;
+    }
+  }
+
+  /* Menos transparência: o vidro vira superfície sólida */
+  @media (prefers-reduced-transparency: reduce) {
+    .liquid-glass,
+    .glass-card {
+      background: hsl(var(--card)) !important;
+      -webkit-backdrop-filter: none !important;
+      backdrop-filter: none !important;
+    }
+  }
+
+  /* Mais contraste: bordas definidas nas superfícies */
+  @media (prefers-contrast: more) {
+    .liquid-glass,
+    .glass-card,
+    .punk-card {
+      border-color: hsl(var(--foreground) / 0.5) !important;
+    }
+  }
+
+  /* Títulos sem viúvas; parágrafos com quebra mais equilibrada */
+  h1, h2, h3, h4, h5 {
+    text-wrap: balance;
+  }
+
+  p, li {
+    text-wrap: pretty;
   }
 
   ::selection {
@@ -111,8 +187,14 @@
     font-family: 'Nunito', system-ui, sans-serif;
   }
 
+  /* Moldura única da página: mesmas margens laterais da navbar em todas as larguras */
+  .page-frame {
+    @apply mx-auto w-[calc(100%-2rem)] md:w-[calc(100%-4rem)] max-w-6xl;
+  }
+
+  /* Ritmo vertical entre seções (claramente maior que qualquer espaço interno) */
   .section-padding {
-    @apply py-20 md:py-28 px-4 md:px-8;
+    @apply py-20 md:py-28 lg:py-32;
   }
 
   .pink-glow {
@@ -130,20 +212,23 @@
 
   .punk-card {
     @apply bg-card border border-border rounded-2xl;
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    transition: transform 0.45s var(--ease-fluid), box-shadow 0.45s var(--ease-fluid), border-color 0.3s ease;
   }
 
-  .punk-card:hover {
-    transform: translateY(-4px) scale(1.01);
-    box-shadow: 0 8px 30px hsl(330 85% 60% / 0.15);
+  /* Hover só onde existe ponteiro de verdade: no toque ele "gruda" depois do tap */
+  @media (hover: hover) and (pointer: fine) {
+    .punk-card:hover {
+      transform: translateY(-4px) scale(1.01);
+      box-shadow: 0 8px 30px hsl(330 85% 60% / 0.15);
+    }
+
+    .light .punk-card:hover {
+      box-shadow: 0 8px 30px hsl(330 85% 50% / 0.18);
+    }
   }
 
   .light .punk-card {
     box-shadow: 0 2px 12px hsl(260 15% 12% / 0.06);
-  }
-
-  .light .punk-card:hover {
-    box-shadow: 0 8px 30px hsl(330 85% 50% / 0.18);
   }
 
   .nav-link-underline {
@@ -163,15 +248,232 @@
 
   .btn-kawaii {
     @apply relative overflow-hidden;
-    transition: transform 0.15s ease, box-shadow 0.25s ease;
+    transition: transform 0.35s var(--ease-fluid), box-shadow 0.3s ease;
   }
 
-  .btn-kawaii:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 20px hsl(330 85% 60% / 0.4);
+  @media (hover: hover) and (pointer: fine) {
+    .btn-kawaii:hover {
+      transform: scale(1.04);
+      box-shadow: 0 0 20px hsl(330 85% 60% / 0.4);
+    }
   }
 
-  .btn-kawaii:active {
+  /* ---------- Resposta imediata ao toque (feedback no pointer-down, não no clique) ---------- */
+  .pressable,
+  .pdi-stat,
+  .pdi-area,
+  [role="group"] > button {
+    -webkit-tap-highlight-color: transparent;
+    transition-property: transform, color, background-color, border-color, box-shadow;
+    transition-duration: 0.35s;
+    transition-timing-function: var(--ease-fluid);
+  }
+
+  .btn-kawaii:active,
+  .pressable:active,
+  .pdi-stat:active,
+  .pdi-area:active,
+  [role="group"] > button:active {
     transform: scale(0.97);
+    transition-duration: 0.08s;
   }
+
+  /* Superfícies grandes (cards clicáveis) afundam menos que botões */
+  .pressable-soft {
+    -webkit-tap-highlight-color: transparent;
+    transition: transform 0.35s var(--ease-fluid);
+  }
+
+  .pressable-soft:active {
+    transform: scale(0.985);
+    transition-duration: 0.08s;
+  }
+
+  /* ---------- Modal que nasce do card clicado (transform-origin definido em Projects.tsx) ---------- */
+  .dialog-from-origin.dialog-from-origin[data-state="open"] {
+    --tw-enter-scale: 0.5;
+    animation-duration: 0.5s;
+    animation-timing-function: var(--ease-fluid);
+  }
+
+  .dialog-from-origin.dialog-from-origin[data-state="closed"] {
+    --tw-exit-scale: 0.5;
+    animation-duration: 0.22s;
+    animation-timing-function: cubic-bezier(0.64, 0, 0.78, 0);
+  }
+
+  /* ---------- Novos utilitários (v2) ---------- */
+
+  .glass-card {
+    @apply rounded-2xl border border-border bg-card/70 backdrop-blur-md;
+    box-shadow: 0 20px 60px -20px hsl(var(--primary) / 0.25);
+  }
+
+  .pdi-stat,
+  .pdi-area {
+    @apply rounded-2xl border border-border bg-card p-5 transition-colors duration-200;
+  }
+
+  .pdi-stat:hover,
+  .pdi-area:hover {
+    @apply border-primary/40;
+  }
+
+  .icon-btn {
+    @apply flex h-10 w-10 items-center justify-center rounded-full border border-border bg-card/60 text-muted-foreground transition-colors duration-200;
+  }
+
+  .icon-btn:hover {
+    @apply border-primary/50 text-primary;
+  }
+
+  .hero-grid {
+    background-image:
+      linear-gradient(hsl(var(--border) / 0.6) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.6) 1px, transparent 1px);
+    background-size: 56px 56px;
+    mask-image: radial-gradient(ellipse 70% 60% at 50% 40%, black 20%, transparent 75%);
+  }
+
+  .skip-link {
+    @apply sr-only;
+  }
+
+  .skip-link:focus {
+    @apply not-sr-only fixed left-4 top-4 z-[100] rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground;
+  }
+
+  .thin-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--border)) transparent;
+  }
+
+  .light .status-done {
+    @apply text-emerald-700;
+  }
+
+  .light .glass-card {
+    box-shadow: 0 20px 60px -25px hsl(var(--primary) / 0.3);
+  }
+}
+
+/* ---------- Liquid Glass (barra de navegação) ---------- */
+@layer components {
+  .liquid-glass {
+    position: relative;
+    isolation: isolate;
+    background: linear-gradient(135deg, hsl(0 0% 100% / 0.1), hsl(0 0% 100% / 0.025) 60%, hsl(330 85% 60% / 0.05));
+    -webkit-backdrop-filter: blur(20px) saturate(180%) brightness(1.08);
+    backdrop-filter: blur(20px) saturate(180%) brightness(1.08);
+    border: 1px solid hsl(0 0% 100% / 0.12);
+    box-shadow:
+      inset 0 1px 0 hsl(0 0% 100% / 0.22),
+      inset 0 -1px 0 hsl(0 0% 100% / 0.05),
+      inset 0 0 24px hsl(0 0% 100% / 0.04),
+      0 10px 30px -10px hsl(260 40% 2% / 0.6);
+  }
+
+  /* Borda especular: brilho que acompanha o contorno */
+  .liquid-glass::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(
+      115deg,
+      hsl(0 0% 100% / 0.55),
+      hsl(0 0% 100% / 0) 28%,
+      hsl(0 0% 100% / 0) 68%,
+      hsl(330 85% 72% / 0.45)
+    );
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* Reflexo suave na metade de cima */
+  .liquid-glass::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    border-radius: inherit;
+    background: linear-gradient(180deg, hsl(0 0% 100% / 0.09), hsl(0 0% 100% / 0) 55%);
+    pointer-events: none;
+  }
+
+  .liquid-glass--raised {
+    box-shadow:
+      inset 0 1px 0 hsl(0 0% 100% / 0.25),
+      inset 0 -1px 0 hsl(0 0% 100% / 0.06),
+      inset 0 0 24px hsl(0 0% 100% / 0.05),
+      0 18px 40px -12px hsl(260 40% 2% / 0.75);
+  }
+
+  /* Refração (Chromium): o fundo ondula atrás da barra, como vidro líquido de verdade.
+     Fundo mais transparente para a distorção aparecer; o blur menor mantém as formas legíveis. */
+  .liquid-glass--refract {
+    background: linear-gradient(135deg, hsl(0 0% 100% / 0.06), hsl(0 0% 100% / 0.015) 60%, hsl(330 85% 60% / 0.04));
+    -webkit-backdrop-filter: url(#liquid-refraction) blur(10px) saturate(190%) brightness(1.1);
+    backdrop-filter: url(#liquid-refraction) blur(10px) saturate(190%) brightness(1.1);
+  }
+
+  .light .liquid-glass--refract {
+    background: linear-gradient(135deg, hsl(0 0% 100% / 0.5), hsl(0 0% 100% / 0.25) 60%, hsl(330 85% 60% / 0.05));
+  }
+
+  /* Lente que marca a aba ativa */
+  .liquid-lens {
+    border-radius: 9999px;
+    background:
+      radial-gradient(120% 90% at 50% 0%, hsl(0 0% 100% / 0.22), transparent 60%),
+      linear-gradient(180deg, hsl(0 0% 100% / 0.14), hsl(0 0% 100% / 0.04));
+    border: 1px solid hsl(0 0% 100% / 0.2);
+    -webkit-backdrop-filter: blur(6px) saturate(200%) brightness(1.15);
+    backdrop-filter: blur(6px) saturate(200%) brightness(1.15);
+    box-shadow:
+      inset 0 1px 0 hsl(0 0% 100% / 0.5),
+      inset 0 -1px 1px hsl(0 0% 100% / 0.12),
+      inset 0 0 10px hsl(0 0% 100% / 0.06),
+      0 4px 14px -4px hsl(330 85% 60% / 0.45);
+  }
+
+  .light .liquid-glass {
+    background: linear-gradient(135deg, hsl(0 0% 100% / 0.65), hsl(0 0% 100% / 0.35) 60%, hsl(330 85% 60% / 0.06));
+    border-color: hsl(0 0% 100% / 0.8);
+    box-shadow:
+      inset 0 1px 0 hsl(0 0% 100% / 0.9),
+      inset 0 -1px 0 hsl(260 15% 12% / 0.04),
+      0 10px 30px -12px hsl(260 30% 20% / 0.25);
+  }
+
+  .light .liquid-glass--raised {
+    box-shadow:
+      inset 0 1px 0 hsl(0 0% 100% / 0.9),
+      0 18px 40px -14px hsl(260 30% 20% / 0.35);
+  }
+
+  .light .liquid-lens {
+    background: linear-gradient(180deg, hsl(0 0% 100% / 0.95), hsl(0 0% 100% / 0.6));
+    border-color: hsl(0 0% 100% / 1);
+    box-shadow:
+      inset 0 1px 0 hsl(0 0% 100% / 1),
+      0 4px 14px -4px hsl(330 85% 50% / 0.35),
+      0 1px 2px hsl(260 15% 12% / 0.08);
+  }
+
+  @supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+    .liquid-glass {
+      background: hsl(var(--card) / 0.95);
+    }
+  }
+}
+
+/* Cross-fade da troca de tema (ThemeToggle usa document.startViewTransition) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.35s;
+  animation-timing-function: ease;
 }

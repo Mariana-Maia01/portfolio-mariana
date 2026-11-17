@@ -17,7 +17,10 @@ export default {
       fontFamily: {
         sans: ["Space Grotesk", "system-ui", "sans-serif"],
         display: ["Nunito", "system-ui", "sans-serif"],
-        mono: ["JetBrains Mono", "monospace"],
+      },
+      /* Escala tipográfica: 13 · 14 · 16 · 18 · 20 · 24 · 30 · 36 · 48 · display */
+      fontSize: {
+        xs: ["0.8125rem", { lineHeight: "1.25rem", letterSpacing: "0.01em" }],
       },
       colors: {
         border: "hsl(var(--border))",
