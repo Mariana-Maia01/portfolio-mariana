@@ -1,0 +1,1393 @@
+{
+ "url": "http://localhost:5199/#conhecimentos",
+ "at": "2026-11-17T12:34:36.240Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.55,
+    0.4,
+    0.42
+   ],
+   "motion": {
+    "elements": 14,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2037,
+     "screens": 2.3,
+     "words": 129,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tecnologias e nível de domínio",
+     "words": 5,
+     "chars": 30,
+     "lines": 1,
+     "size": 48,
+     "vw": 3.3,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.45,
+     "top": 192,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tecnologias e nível de domínio",
+     "words": 5,
+     "lines": 1,
+     "size": 48,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Tecnologias e nível de domínio",
+      "words": 5,
+      "chars": 30,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 192,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.27,
+      "top": 1352,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      48
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 18,
+      "leading": 1.56,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 64,
+     "max": {
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "text": "Tecnologias e"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.24,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#eceaec",
+       "share": 0.76
+      },
+      {
+       "color": "#a5a0b1",
+       "share": 0.19
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px -",
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 22,
+     "hairlineSamples": [
+      "li.flex.items-center 318px",
+      "li.flex.items-center 318px",
+      "li.flex.items-center 318px",
+      "li.flex.items-center 318px",
+      "li.flex.items-center 318px"
+     ],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 7,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 400
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2037,
+    "margins": {
+     "left": 144,
+     "right": 209
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 1224,
+      "words": 80,
+      "media": 0,
+      "middle": 163,
+      "heading": {
+       "text": "Tecnologias e",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 144,
+      "right": 209,
+      "textLeft": 144,
+      "textRight": 209,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 1224,
+      "height": 712,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 434,
+      "right": 434,
+      "textLeft": 434,
+      "textRight": 434,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 1060,
+      "height": 280
+     },
+     {
+      "top": 1668,
+      "height": 308
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Tecnologias e nível de domínio",
+      "size": 48,
+      "top": 192,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 144,
+      "n": 2
+     },
+     {
+      "x": 217,
+      "n": 2
+     },
+     {
+      "x": 609,
+      "n": 2
+     },
+     {
+      "x": 1001,
+      "n": 2
+     },
+     {
+      "x": 443,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.14,
+    "voidBox": {
+     "x": 840,
+     "y": 120,
+     "w": 600,
+     "h": 300
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.75,
+    0.64,
+    0.52
+   ],
+   "motion": {
+    "elements": 14,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2270,
+     "screens": 2.2,
+     "words": 129,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tecnologias e nível de domínio",
+     "words": 5,
+     "chars": 30,
+     "lines": 1,
+     "size": 36,
+     "vw": 4.7,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1.11,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.76,
+     "top": 176,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tecnologias e nível de domínio",
+     "words": 5,
+     "lines": 1,
+     "size": 36,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Tecnologias e nível de domínio",
+      "words": 5,
+      "chars": 30,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 176,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.37,
+      "top": 1609,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      18,
+      20,
+      36
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 18,
+      "leading": 1.56,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 64,
+     "max": {
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "text": "Tecnologias e"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.24,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#eceaec",
+       "share": 0.76
+      },
+      {
+       "color": "#a5a0b1",
+       "share": 0.19
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px -",
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 22,
+     "hairlineSamples": [
+      "li.flex.items-center 290px",
+      "li.flex.items-center 290px",
+      "li.flex.items-center 290px",
+      "li.flex.items-center 290px",
+      "li.flex.items-center 290px"
+     ],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 7,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 6,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 376
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2270,
+    "margins": {
+     "left": 32,
+     "right": 69
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 1497,
+      "words": 80,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tecnologias e",
+       "size": 36,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 69,
+      "textLeft": 32,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 1497,
+      "height": 672,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 98,
+      "right": 98,
+      "textLeft": 98,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Tecnologias e nível de domínio",
+      "size": 36,
+      "top": 176,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 105,
+      "n": 3
+     },
+     {
+      "x": 469,
+      "n": 3
+     },
+     {
+      "x": 32,
+      "n": 2
+     },
+     {
+      "x": 257,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 18,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.62,
+    0.86,
+    0.74,
+    0.73
+   ],
+   "motion": {
+    "elements": 14,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3293,
+     "screens": 3.9,
+     "words": 123,
+     "img": 1,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Tecnologias e nível de domínio",
+     "words": 5,
+     "chars": 30,
+     "lines": 2,
+     "size": 30,
+     "vw": 7.7,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1.1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 144,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Tecnologias e nível de domínio",
+     "words": 5,
+     "lines": 2,
+     "size": 30,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Tecnologias e nível de domínio",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 144,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 2565,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.84,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.16,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      16,
+      20,
+      30
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 7.4
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "text": "Tecnologias e"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0.25,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#1d1b22",
+       "top": 410,
+       "hsl": {
+        "h": 257,
+        "s": 0.11,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#eceaec",
+       "share": 0.78
+      },
+      {
+       "color": "#a5a0b1",
+       "share": 0.16
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 22,
+     "hairlineSamples": [
+      "li.flex.items-center 308px",
+      "li.flex.items-center 308px",
+      "li.flex.items-center 308px",
+      "li.flex.items-center 308px",
+      "li.flex.items-center 308px"
+     ],
+     "outlinedBoxes": 7,
+     "dashed": 0,
+     "blurred": 2,
+     "roundedBoxes": 7,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3293,
+    "margins": {
+     "left": 16,
+     "right": 33
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 2485,
+      "words": 80,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Tecnologias e",
+       "size": 30,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 33,
+      "textLeft": 16,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 2485,
+      "height": 629,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 41,
+      "right": 41,
+      "textLeft": 50,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-border",
+      "tag": "footer",
+      "top": 3114,
+      "height": 179,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 92,
+      "right": 86,
+      "textLeft": 92,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Tecnologias e nível de domínio",
+      "size": 30,
+      "top": 144,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 89,
+      "n": 6
+     },
+     {
+      "x": 16,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 9,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient-text",
+   "width": 1440,
+   "message": "2 gradient-filled text element(s).",
+   "fix": "Solid colour text.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "2 box-shadow(s) on elements at rest: span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px - | div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "22 thin rule(s)/divider line(s): li.flex.items-center 318px | li.flex.items-center 318px | li.flex.items-center 318px | li.flex.items-center 318px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "7 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "3 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "1 row(s) of identical cards each topped with a small icon (6 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Enviar e-mail\" 3.5:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 48px (3.3vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 144px from the left edge but only to 209px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 14 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "off-centre",
+   "width": 768,
+   "message": "The margins differ: 32px on the left, 69px on the right, at 768px.",
+   "fix": "Put the navigation and the content on one pair of margins; check for padding on one side only, a scrollbar gutter, or a header on another inset than the page.",
+   "alsoAt": [
+    390
+   ]
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\conhecimentos\\desktop-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\conhecimentos\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\conhecimentos\\tablet-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\conhecimentos\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\conhecimentos\\mobile-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\conhecimentos\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

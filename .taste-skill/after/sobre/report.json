@@ -1,0 +1,1768 @@
+{
+ "url": "http://localhost:5199/#sobre",
+ "at": "2026-11-17T12:33:35.586Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.2,
+    0.48,
+    1,
+    0.43
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 3,
+    "transitions": 1,
+    "scripted": 12,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 3591,
+     "screens": 4,
+     "words": 321,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 35,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "profile-photo.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Dev. Fullstack com foco em back-end",
+     "words": 6,
+     "chars": 35,
+     "lines": 2,
+     "size": 96,
+     "vw": 6.7,
+     "font": "Nunito",
+     "weight": 900,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.8,
+     "top": 303,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Dev. Fullstack com foco em back-end",
+     "words": 6,
+     "lines": 2,
+     "size": 96,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Dev. Fullstack com foco em back-end",
+      "words": 6,
+      "chars": 35,
+      "lines": 2,
+      "size": 96,
+      "vw": 6.7,
+      "font": "Nunito",
+      "weight": 900,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.8,
+      "top": 303,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem sou eu",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.19,
+      "top": 1028,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Experiência profissional",
+      "words": 2,
+      "chars": 24,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1772,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 48,
+      "vw": 3.3,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.27,
+      "top": 2906,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      20,
+      24,
+      48,
+      77,
+      96
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.2
+     },
+     "measureChars": 71,
+     "max": {
+      "size": 96,
+      "vw": 6.7,
+      "font": "Nunito",
+      "text": "Dev."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#1d1b22",
+       "top": 1920,
+       "hsl": {
+        "h": 257,
+        "s": 0.11,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a5a0b1",
+       "share": 0.49
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.45
+      },
+      {
+       "color": "#f04299",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Vamos conversar",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      },
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      },
+      {
+       "text": "Java",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#f04299",
+       "bg": "#331f47"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 50,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Vamos conversar",
+      "Download CV"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 4,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px -",
+      "a.btn-kawaii.inline-flex → rgba(240, 66, 153, 0.325) 0px 0px 24.9933px 0px",
+      "div.aspect-square.w-full → rgba(240, 66, 153, 0.25) 0px 0px 25px 0px, rgba(240, 66, 153, 0.1) 0px 0px 60px ",
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 4,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "footer.border-t.border-border 1440px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 6,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 24,
+     "textShadow": 1,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 3591,
+    "margins": {
+     "left": 144,
+     "right": 144
+    },
+    "sections": [
+     {
+      "sel": "section#hero.relative.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 26,
+      "media": 0,
+      "middle": 308,
+      "heading": {
+       "text": "Dev.",
+       "size": 96,
+       "tag": "h1"
+      },
+      "left": 144,
+      "right": 144,
+      "textLeft": 144,
+      "textRight": 512,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#quem-sou-eu.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 900,
+      "height": 744,
+      "words": 80,
+      "media": 1,
+      "middle": 135,
+      "heading": {
+       "text": "Quem sou",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 144,
+      "right": 149,
+      "textLeft": 144,
+      "textRight": 149,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencia.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 1644,
+      "height": 1134,
+      "words": 193,
+      "media": 0,
+      "middle": 17,
+      "heading": {
+       "text": "Experiência",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 144,
+      "right": 186,
+      "textLeft": 144,
+      "textRight": 186,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 2778,
+      "height": 712,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 48,
+       "tag": "h2"
+      },
+      "left": 434,
+      "right": 434,
+      "textLeft": 434,
+      "textRight": 434,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 2612,
+      "height": 284
+     },
+     {
+      "top": 3224,
+      "height": 308
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Dev. Fullstack com foco em back-end",
+      "size": 96,
+      "top": 303,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 144,
+      "n": 5
+     },
+     {
+      "x": 661,
+      "n": 2
+     },
+     {
+      "x": 361,
+      "n": 1
+     },
+     {
+      "x": 372,
+      "n": 1
+     },
+     {
+      "x": 399,
+      "n": 1
+     },
+     {
+      "x": 598,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.24,
+    "voidBox": {
+     "x": 960,
+     "y": 240,
+     "w": 480,
+     "h": 660
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.26,
+    0.49,
+    1,
+    0.67
+   ],
+   "motion": {
+    "elements": 16,
+    "css": 3,
+    "transitions": 1,
+    "scripted": 12,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4077,
+     "screens": 4,
+     "words": 321,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 35,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "profile-photo.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Dev. Fullstack com foco em back-end",
+     "words": 6,
+     "chars": 35,
+     "lines": 2,
+     "size": 72,
+     "vw": 9.4,
+     "font": "Nunito",
+     "weight": 900,
+     "tracking": -0.025,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 386,
+     "gradientText": true,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Dev. Fullstack com foco em back-end",
+     "words": 6,
+     "lines": 2,
+     "size": 72,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Dev. Fullstack com foco em back-end",
+      "words": 6,
+      "chars": 35,
+      "lines": 2,
+      "size": 72,
+      "vw": 9.4,
+      "font": "Nunito",
+      "weight": 900,
+      "tracking": -0.025,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 386,
+      "gradientText": true,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem sou eu",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.27,
+      "top": 1136,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Experiência profissional",
+      "words": 2,
+      "chars": 24,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.73,
+      "top": 2004,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.37,
+      "top": 3416,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      20,
+      24,
+      36,
+      58,
+      72
+     ],
+     "sizeCount": 9,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 14.2
+     },
+     "measureChars": 43,
+     "max": {
+      "size": 72,
+      "vw": 9.4,
+      "font": "Nunito",
+      "text": "Dev."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#1d1b22",
+       "top": 2144,
+       "hsl": {
+        "h": 257,
+        "s": 0.11,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a5a0b1",
+       "share": 0.49
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.45
+      },
+      {
+       "color": "#f04299",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Vamos conversar",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      },
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      },
+      {
+       "text": "Java",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#f04299",
+       "bg": "#331f47"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 50,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Vamos conversar",
+      "Download CV"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 4,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px -",
+      "a.btn-kawaii.inline-flex → rgba(240, 66, 153, 0.31) 0px 0px 23.8443px 0px",
+      "div.aspect-square.w-full → rgba(240, 66, 153, 0.25) 0px 0px 25px 0px, rgba(240, 66, 153, 0.1) 0px 0px 60px ",
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 4,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "footer.border-t.border-border 768px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 8,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 24,
+     "textShadow": 1,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4077,
+    "margins": {
+     "left": 32,
+     "right": 35
+    },
+    "sections": [
+     {
+      "sel": "section#hero.relative.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Dev.",
+       "size": 72,
+       "tag": "h1"
+      },
+      "left": 32,
+      "right": 65,
+      "textLeft": 32,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#quem-sou-eu.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 1024,
+      "height": 868,
+      "words": 80,
+      "media": 1,
+      "middle": 50,
+      "heading": {
+       "text": "Quem sou",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 35,
+      "textLeft": 32,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencia.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 1892,
+      "height": 1412,
+      "words": 193,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Experiência",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 70,
+      "textLeft": 32,
+      "textRight": 70,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 3304,
+      "height": 672,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 98,
+      "right": 98,
+      "textLeft": 98,
+      "textRight": 98,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Dev. Fullstack com foco em back-end",
+      "size": 72,
+      "top": 386,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 5
+     },
+     {
+      "x": 195,
+      "n": 2
+     },
+     {
+      "x": 353,
+      "n": 2
+     },
+     {
+      "x": 223,
+      "n": 1
+     },
+     {
+      "x": 372,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.3,
+    0.65,
+    0.78,
+    1,
+    0.94,
+    0.74
+   ],
+   "motion": {
+    "elements": 17,
+    "css": 3,
+    "transitions": 1,
+    "scripted": 13,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 4960,
+     "screens": 5.9,
+     "words": 315,
+     "img": 2,
+     "video": 0,
+     "canvas": 0,
+     "svg": 35,
+     "sections": 4,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 1,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "profile-photo.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Dev. Fullstack",
+     "words": 2,
+     "chars": 14,
+     "lines": 1,
+     "size": 48,
+     "vw": 12.3,
+     "font": "Nunito",
+     "weight": 900,
+     "tracking": -0.025,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 265,
+     "gradientText": true,
+     "tag": "span",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Dev. Fullstack com foco em back-end",
+     "words": 6,
+     "lines": 2,
+     "size": 48,
+     "font": "Nunito"
+    },
+    "headings": [
+     {
+      "text": "Dev. Fullstack",
+      "words": 2,
+      "chars": 14,
+      "lines": 1,
+      "size": 48,
+      "vw": 12.3,
+      "font": "Nunito",
+      "weight": 900,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 265,
+      "gradientText": true,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem sou eu",
+      "words": 3,
+      "chars": 11,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 924,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Experiência profissional",
+      "words": 2,
+      "chars": 24,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2091,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.61,
+      "top": 4232,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 1,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.95,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.05,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      13,
+      14,
+      16,
+      18,
+      20,
+      30,
+      48
+     ],
+     "sizeCount": 7,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 16,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 15.7
+     },
+     "measureChars": 45,
+     "max": {
+      "size": 48,
+      "vw": 12.3,
+      "font": "Nunito",
+      "text": "Dev."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.09,
+     "smallText": 0
+    },
+    "eyebrows": [
+     {
+      "text": "Olá, sou a",
+      "above": "Dev. Fullstack",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 18,
+      "top": 217
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#331f47",
+       "top": 997,
+       "hsl": {
+        "h": 270,
+        "s": 0.39,
+        "l": 0.2
+       }
+      },
+      {
+       "color": "#1d1b22",
+       "top": 2232,
+       "hsl": {
+        "h": 257,
+        "s": 0.11,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#a5a0b1",
+       "share": 0.48
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.46
+      },
+      {
+       "color": "#f04299",
+       "share": 0.03
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Vamos conversar",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      },
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      },
+      {
+       "text": "Java",
+       "ratio": 4.2,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#f04299",
+       "bg": "#331f47"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 2,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Vamos conversar",
+      "Download CV"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 3,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "a.btn-kawaii.inline-flex → rgba(240, 66, 153, 0.37) 0px 0px 28.3708px 0px",
+      "div.aspect-square.w-full → rgba(240, 66, 153, 0.25) 0px 0px 25px 0px, rgba(240, 66, 153, 0.1) 0px 0px 60px ",
+      "div.glass-card.px-6 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 3,
+     "hairlines": 1,
+     "hairlineSamples": [
+      "footer.border-t.border-border 390px"
+     ],
+     "outlinedBoxes": 3,
+     "dashed": 0,
+     "blurred": 2,
+     "roundedBoxes": 6,
+     "boxRadius": 99,
+     "squareMedia": 0,
+     "roundedMedia": 1,
+     "mediaRadius": 24,
+     "textShadow": 1,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 4960,
+    "margins": {
+     "left": 16,
+     "right": 26
+    },
+    "sections": [
+     {
+      "sel": "section#hero.relative.min-h-screen",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 26,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Dev.",
+       "size": 48,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 39,
+      "textLeft": 16,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#quem-sou-eu.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 844,
+      "height": 1167,
+      "words": 80,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Quem sou",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 26,
+      "textLeft": 16,
+      "textRight": 26,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencia.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 2011,
+      "height": 2141,
+      "words": 193,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Experiência",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 23,
+      "textLeft": 16,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-24",
+      "tag": "section",
+      "top": 4152,
+      "height": 629,
+      "words": 28,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 41,
+      "right": 41,
+      "textLeft": 50,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-border",
+      "tag": "footer",
+      "top": 4781,
+      "height": 179,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 92,
+      "right": 86,
+      "textLeft": 92,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Dev. Fullstack com foco em back-end",
+      "size": 48,
+      "top": 265,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 7
+     },
+     {
+      "x": 125,
+      "n": 1
+     },
+     {
+      "x": 158,
+      "n": 1
+     },
+     {
+      "x": 175,
+      "n": 1
+     },
+     {
+      "x": 192,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 11,
+    "bodySize": 16,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient-text",
+   "width": 1440,
+   "message": "4 gradient-filled text element(s).",
+   "fix": "Solid colour text.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "4 box-shadow(s) on elements at rest: span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px - | a.btn-kawaii.inline-flex → rgba(240, 66, 153, 0.325) 0px 0px 24.9933px 0px | div.aspect-square.w-full → rgba(240, 66, 153, 0.25) 0px 0px 25px 0px, rgba(240, 66, 153, 0.1) 0px 0px 60px ",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "text-shadow",
+   "width": 1440,
+   "message": "1 text-shadow(s).",
+   "fix": "Remove; fix legibility with a scrim or a different crop.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 1440,
+   "message": "Buttons with shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hairline",
+   "width": 1440,
+   "message": "1 thin rule(s)/divider line(s): footer.border-t.border-border 1440px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "3 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "3 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Vamos conversar\" 3.5:1 needs 4.5:1; \"Enviar e-mail\" 3.5:1 needs 4.5:1; \"Java\" 4.2:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 1 picture(s) on the page (1 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 390,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Olá, sou\" above \"Dev. Fullstack\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\sobre\\desktop-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\sobre\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\sobre\\tablet-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\sobre\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\sobre\\mobile-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\after\\sobre\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

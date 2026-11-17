@@ -1,0 +1,1541 @@
+{
+ "url": "http://localhost:5199/#projetos",
+ "at": "2026-11-17T12:26:20.044Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.99,
+    0.8,
+    0.45
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 10,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2385,
+     "screens": 2.7,
+     "words": 204,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "project-fidelidade.webp",
+      "project-screenmatch.webp",
+      "project-library-app.webp",
+      "project-minecraft-aws.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "chars": 30,
+     "lines": 1,
+     "size": 36,
+     "vw": 2.5,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1.11,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.47,
+     "top": 204,
+     "gradientText": true,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": null,
+    "headings": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "words": 4,
+      "chars": 30,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.47,
+      "top": 204,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 1770,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.8,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.1,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.09,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      12,
+      14,
+      16,
+      20,
+      36
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 14,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.6
+     },
+     "measureChars": 73,
+     "max": {
+      "size": 36,
+      "vw": 2.5,
+      "font": "Nunito",
+      "text": "Projetos"
+     },
+     "monoShare": 0.09,
+     "monoProseShare": 0.09,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "projetos",
+      "Acadêmico",
+      "Curso / Bootcamp",
+      "Curso / Bootcamp",
+      "Pessoal",
+      "contato"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.13,
+     "smallText": 11
+    },
+    "eyebrows": [
+     {
+      "text": "projetos",
+      "above": "Projetos acadêmicos e pessoais",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 14,
+      "top": 176
+     },
+     {
+      "text": "contato",
+      "above": "Vamos conversar?",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 14,
+      "top": 1742
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#888198",
+       "share": 0.62
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.3
+      },
+      {
+       "color": "#f04299",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 1,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px -",
+      "div.glass-card.p-8 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.aspect-[16/9].bg-secondary/50 562px",
+      "div.aspect-[16/9].bg-secondary/50 562px",
+      "div.aspect-[16/9].bg-secondary/50 562px",
+      "div.aspect-[16/9].bg-secondary/50 562px",
+      "footer.border-t.border-border 1440px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.14
+     },
+     {
+      "type": "img",
+      "ratio": 0.14
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono",
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2385,
+    "margins": {
+     "left": 144,
+     "right": 145
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 1630,
+      "words": 160,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Projetos",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 144,
+      "right": 145,
+      "textLeft": 144,
+      "textRight": 166,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-20",
+      "tag": "section",
+      "top": 1630,
+      "height": 670,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 272,
+      "right": 466,
+      "textLeft": 272,
+      "textRight": 466,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 169,
+      "n": 4
+     },
+     {
+      "x": 757,
+      "n": 4
+     },
+     {
+      "x": 144,
+      "n": 2
+     },
+     {
+      "x": 272,
+      "n": 1
+     },
+     {
+      "x": 284,
+      "n": 1
+     },
+     {
+      "x": 389,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.07,
+    "voidBox": {
+     "x": 660,
+     "y": 120,
+     "w": 780,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.99,
+    0.74,
+    0.66
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 10,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2339,
+     "screens": 2.3,
+     "words": 204,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "project-fidelidade.webp",
+      "project-screenmatch.webp",
+      "project-library-app.webp",
+      "project-minecraft-aws.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "chars": 30,
+     "lines": 2,
+     "size": 36,
+     "vw": 4.7,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1.11,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.64,
+     "top": 204,
+     "gradientText": true,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": null,
+    "headings": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.64,
+      "top": 204,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.11,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 1724,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.8,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.1,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.09,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      12,
+      14,
+      16,
+      20,
+      36
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 14,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.6
+     },
+     "measureChars": 41,
+     "max": {
+      "size": 36,
+      "vw": 4.7,
+      "font": "Nunito",
+      "text": "Projetos"
+     },
+     "monoShare": 0.09,
+     "monoProseShare": 0.09,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "projetos",
+      "Acadêmico",
+      "Curso / Bootcamp",
+      "Curso / Bootcamp",
+      "Pessoal",
+      "contato"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.13,
+     "smallText": 11
+    },
+    "eyebrows": [
+     {
+      "text": "projetos",
+      "above": "Projetos acadêmicos e pessoais",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 14,
+      "top": 176
+     },
+     {
+      "text": "contato",
+      "above": "Vamos conversar?",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 14,
+      "top": 1696
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#888198",
+       "share": 0.62
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.3
+      },
+      {
+       "color": "#f04299",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 1,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px -",
+      "div.glass-card.p-8 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.aspect-[16/9].bg-secondary/50 338px",
+      "div.aspect-[16/9].bg-secondary/50 338px",
+      "div.aspect-[16/9].bg-secondary/50 338px",
+      "div.aspect-[16/9].bg-secondary/50 338px",
+      "footer.border-t.border-border 768px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 3,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.08
+     },
+     {
+      "type": "img",
+      "ratio": 0.08
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono",
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2339,
+    "margins": {
+     "left": 32,
+     "right": 33
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 1584,
+      "words": 160,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Projetos",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 33,
+      "textLeft": 32,
+      "textRight": 54,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-20",
+      "tag": "section",
+      "top": 1584,
+      "height": 670,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 32,
+      "right": 130,
+      "textLeft": 32,
+      "textRight": 130,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 32,
+      "n": 4
+     },
+     {
+      "x": 57,
+      "n": 4
+     },
+     {
+      "x": 421,
+      "n": 4
+     },
+     {
+      "x": 149,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.99,
+    1,
+    1,
+    0.71
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 0,
+    "transitions": 1,
+    "scripted": 10,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3366,
+     "screens": 4,
+     "words": 198,
+     "img": 5,
+     "video": 0,
+     "canvas": 0,
+     "svg": 18,
+     "sections": 2,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 4,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "project-fidelidade.webp",
+      "project-screenmatch.webp",
+      "project-library-app.webp",
+      "project-minecraft-aws.webp"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Projetos acadêmicos e pessoais",
+     "words": 4,
+     "chars": 30,
+     "lines": 2,
+     "size": 30,
+     "vw": 7.7,
+     "font": "Nunito",
+     "weight": 700,
+     "tracking": -0.025,
+     "leading": 1.2,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 172,
+     "gradientText": true,
+     "tag": "h2",
+     "kind": "heading"
+    },
+    "h1": null,
+    "headings": [
+     {
+      "text": "Projetos acadêmicos e pessoais",
+      "words": 4,
+      "chars": 30,
+      "lines": 2,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 172,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Vamos conversar?",
+      "words": 2,
+      "chars": 16,
+      "lines": 1,
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "weight": 700,
+      "tracking": -0.025,
+      "leading": 1.2,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2671,
+      "gradientText": true,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Space Grotesk",
+       "share": 0.8,
+       "mono": false
+      },
+      {
+       "family": "Nunito",
+       "share": 0.11,
+       "mono": false
+      },
+      {
+       "family": "JetBrains Mono",
+       "share": 0.1,
+       "mono": true
+      }
+     ],
+     "familyCount": 3,
+     "sizes": [
+      12,
+      14,
+      16,
+      20,
+      30
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Space Grotesk",
+      "size": 14,
+      "leading": 1.63,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 4.6
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 30,
+      "vw": 7.7,
+      "font": "Nunito",
+      "text": "Projetos"
+     },
+     "monoShare": 0.1,
+     "monoProseShare": 0.1,
+     "monoFamilies": [
+      "JetBrains Mono"
+     ],
+     "monoSamples": [
+      "projetos",
+      "Acadêmico",
+      "Curso / Bootcamp",
+      "Curso / Bootcamp",
+      "Pessoal",
+      "contato"
+     ],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.02,
+     "centerShare": 0.14,
+     "smallText": 11
+    },
+    "eyebrows": [
+     {
+      "text": "projetos",
+      "above": "Projetos acadêmicos e pessoais",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 14,
+      "top": 144
+     },
+     {
+      "text": "contato",
+      "above": "Vamos conversar?",
+      "upper": false,
+      "tracked": false,
+      "mono": true,
+      "pill": false,
+      "size": 14,
+      "top": 2643
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#131117",
+     "bodyBgHsl": {
+      "h": 260,
+      "s": 0.15,
+      "l": 0.08
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#131117",
+       "top": 0,
+       "hsl": {
+        "h": 260,
+        "s": 0.15,
+        "l": 0.08
+       }
+      },
+      {
+       "color": "#1d1b22",
+       "top": 418,
+       "hsl": {
+        "h": 257,
+        "s": 0.11,
+        "l": 0.12
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#888198",
+       "share": 0.61
+      },
+      {
+       "color": "#eceaec",
+       "share": 0.3
+      },
+      {
+       "color": "#f04299",
+       "share": 0.05
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#f04299",
+      "hsl": {
+       "h": 330,
+       "s": 0.85,
+       "l": 0.6
+      },
+      "fg": "#ffffff"
+     },
+     "lowContrast": [
+      {
+       "text": "Enviar e-mail",
+       "ratio": 3.5,
+       "need": 4.5,
+       "size": 14,
+       "fg": "#ffffff",
+       "bg": "#f04299"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 2,
+     "inHero": 0,
+     "radius": "pill",
+     "height": 44,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 1,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 1,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.glass-card.p-8 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px"
+     ],
+     "gradients": 1,
+     "scrims": 0,
+     "gradientSamples": [
+      "nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))"
+     ],
+     "gradientText": 2,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.aspect-[16/9].bg-secondary/50 356px",
+      "div.aspect-[16/9].bg-secondary/50 356px",
+      "div.aspect-[16/9].bg-secondary/50 356px",
+      "div.aspect-[16/9].bg-secondary/50 356px",
+      "footer.border-t.border-border 390px"
+     ],
+     "outlinedBoxes": 5,
+     "dashed": 0,
+     "blurred": 2,
+     "roundedBoxes": 5,
+     "boxRadius": 16,
+     "squareMedia": 0,
+     "roundedMedia": 4,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.22
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 58,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "jetbrains mono",
+     "nunito",
+     "space grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3366,
+    "margins": {
+     "left": 16,
+     "right": 17
+    },
+    "sections": [
+     {
+      "sel": "div.pt-16",
+      "tag": "div",
+      "top": 0,
+      "height": 2563,
+      "words": 160,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Projetos",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contato.section-padding.scroll-mt-20",
+      "tag": "section",
+      "top": 2563,
+      "height": 652,
+      "words": 29,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Vamos",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 49,
+      "textLeft": 16,
+      "textRight": 50,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.border-t.border-border",
+      "tag": "footer",
+      "top": 3215,
+      "height": 151,
+      "words": 10,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 91,
+      "right": 86,
+      "textLeft": 91,
+      "textRight": 86,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 41,
+      "n": 8
+     },
+     {
+      "x": 16,
+      "n": 4
+     },
+     {
+      "x": 114,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 13,
+    "bodySize": 14,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "2 eyebrow/kicker label(s) above headings: \"projetos\" above \"Projetos acadêmicos e pessoais\"; \"contato\" above \"Vamos conversar?\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "mono",
+   "width": 1440,
+   "message": "Monospace type outside code: JetBrains Mono — e.g. \"projetos\", \"Acadêmico\", \"Curso / Bootcamp\", \"Curso / Bootcamp\"",
+   "fix": "Set it in the text face. Monospace is for literal code inside <pre>/<code> only.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "1 gradient fill(s): nav.liquid-glass.rounded-full → linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.024) 60%, rgba(240, 66, 153, 0.05))",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient-text",
+   "width": 1440,
+   "message": "2 gradient-filled text element(s).",
+   "fix": "Solid colour text.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "2 box-shadow(s) on elements at rest: span.liquid-lens.absolute → rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset, rgba(255, 255, 255, 0.06) 0px - | div.glass-card.p-8 → rgba(240, 66, 153, 0.25) 0px 20px 60px -20px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "5 thin rule(s)/divider line(s): div.aspect-[16/9].bg-secondary/50 562px | div.aspect-[16/9].bg-secondary/50 562px | div.aspect-[16/9].bg-secondary/50 562px | div.aspect-[16/9].bg-secondary/50 562px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "5 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "3 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"Enviar e-mail\" 3.5:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-count",
+   "width": 1440,
+   "message": "3 typefaces in use (Space Grotesk, Nunito, JetBrains Mono).",
+   "fix": "Two at most.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (4.6:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "11 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 36px (2.5vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw."
+  },
+  {
+   "level": "FAIL",
+   "id": "no-title",
+   "width": 1440,
+   "message": "The page has no visible h1.",
+   "fix": "Give the first screen a clear title in an h1 that says what this is (a name with what it does, the product with what it is for, the event with its date and place).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 11 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\before\\projetos\\desktop-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\before\\projetos\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\before\\projetos\\tablet-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\before\\projetos\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\before\\projetos\\mobile-fold.jpg",
+   "pages": [
+    "c:\\Users\\Mariana\\portfolio-mariana\\.taste-skill\\before\\projetos\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
